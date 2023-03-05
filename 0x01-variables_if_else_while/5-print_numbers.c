@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-/*
- *main -every c programme has
- *a main function
- *
- *Description: The program prints all base 10 digits
- *Return 0
+/**
+*main - entry point
+*
+*Description: The program prints all base 10 digits
+*
+*
+*Return: Always 0
 */
 
 int main(void)
