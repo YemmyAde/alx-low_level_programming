@@ -19,7 +19,7 @@ int main(void)
 		num++;
 	}
 
-	while (alp <= 'g')
+	while (alp < 'g')
 	{
 		putchar(alp);
 		alp++;
