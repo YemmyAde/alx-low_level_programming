@@ -3,7 +3,7 @@
 
 /**
 *_isdigit - checks if c is a digit
-*
+*@c: the int for the paramaters of my function
 *Return: return 1 if it a digit
 *else return 0
 *
@@ -11,7 +11,7 @@
 
 int _isdigit(int c)
 {
-	for (c >= 0 && c <= 9)
+	if (c >= '0' && c <= '9')
 	{
 		return (1);
 	}
